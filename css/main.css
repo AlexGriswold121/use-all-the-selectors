@@ -23,7 +23,7 @@ nav, ul{
 .def + strong {
   color: #fff;
 }
-[href] {
+[href*] {
   background-color: #719e07;
 }
 
@@ -36,12 +36,12 @@ ol:first-child{
 ol:last-child{
   color: #2aa198;
 }
-.types:nth-child(odd){
+.types>li:nth-child(odd){
   background-color: #657ba3;
 }
-.types:nth-child(even){
+.types>li:nth-child(even){
   background-color: #586e75;
 }
-.types:nth-child(3n){
+.types>li:nth-child(3n){
   background-color: #d04b16;
 }
